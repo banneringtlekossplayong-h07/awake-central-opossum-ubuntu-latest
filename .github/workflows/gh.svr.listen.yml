@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: node ./main.js --ngrokdomain=witty-sound-woodcock
+      - name: node ./main.js --ngrokdomain=awake-central-opossum
         run: |
           npm i install
-          node ./main.js --ngrokdomain=witty-sound-woodcock
+          node ./main.js --ngrokdomain=awake-central-opossum
