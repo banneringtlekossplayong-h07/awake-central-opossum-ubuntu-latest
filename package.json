@@ -1,4 +1,5 @@
 {
+  "name": "use-ngrok",
   "dependencies": {
     "@ngrok/ngrok": "^1.0.0"
   }
